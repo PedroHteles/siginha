@@ -1,0 +1,5 @@
+Can you create a powershell script that receives a folder path and a string as parameters, then it goes inside the folder and goes 
+to the folder "Telas" and create another folder with the string we passed before as the name, after this it will create a css file and a react jsx component with
+the string name as the string we passed before, the component will import the index.css file
+The last step is go outside the folder Telas and inside the Menus.js file, find the array "menus" and insert the object
+{funcao: funcoes.get('funcao'), sistema: sistemas.get('setor'), url: 'stringInKebabCase', texto: 'string name', component: @componentName} in the array "menus"
